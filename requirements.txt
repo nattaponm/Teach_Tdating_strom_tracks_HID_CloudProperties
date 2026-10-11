@@ -1,0 +1,19 @@
+pysteps==1.21.5
+arm_pyart>=2.0
+cartopy
+netCDF4
+xarray
+geopandas
+shapely
+pyproj
+rasterio
+metpy
+cmweather
+scikit-image
+scikit-learn
+matplotlib
+numpy
+scipy
+pandas
+# เฉพาะการรัน 00 ใหม่ (PyTDA ต้อง compile ด้วย Cython):
+#   pip install --no-build-isolation git+https://github.com/nasa/PyTDA.git

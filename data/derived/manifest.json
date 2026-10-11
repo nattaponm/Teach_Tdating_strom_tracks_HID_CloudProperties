@@ -1,0 +1,81 @@
+{
+ "case": "KKN 2024-05-03",
+ "window_utc": [
+  "05:00",
+  "17:00"
+ ],
+ "grid": "AEQD 1 km 481x481, yorigin upper",
+ "tdating_params": {
+  "minref": 33,
+  "maxref": 45,
+  "mindiff": 5,
+  "minsize": 15,
+  "minmax": 40,
+  "mindis": 8
+ },
+ "track_kw": {
+  "mintrack": 2,
+  "match_frac": 0.25
+ },
+ "main_sets": {
+  "15": "15min",
+  "10": "10min_linZ",
+  "5": "05min_linZ"
+ },
+ "note": "5/10-min frames are synthetic (advection interpolation). HID/Doppler only at observed 15-min times.",
+ "sources": [
+  "Teach_Pysteps_KKN_summerStorm",
+  "Teach_HID_Doppler_KKN_summerStorm",
+  "SRTM/GMTED terrain"
+ ],
+ "files": [
+  {
+   "file": "KKN_20240503_cappi_05min_linZ.nc",
+   "MB": 3.51
+  },
+  {
+   "file": "KKN_20240503_cappi_05min_nearest.nc",
+   "MB": 3.16
+  },
+  {
+   "file": "KKN_20240503_cappi_15min.nc",
+   "MB": 1.15
+  },
+  {
+   "file": "KKN_20240503_interp_test.csv",
+   "MB": 0.01
+  },
+  {
+   "file": "KKN_20240503_labels_05min_linZ.nc",
+   "MB": 0.36
+  },
+  {
+   "file": "KKN_20240503_labels_05min_nearest.nc",
+   "MB": 0.36
+  },
+  {
+   "file": "KKN_20240503_labels_10min_linZ.nc",
+   "MB": 0.19
+  },
+  {
+   "file": "KKN_20240503_labels_10min_nearest.nc",
+   "MB": 0.19
+  },
+  {
+   "file": "KKN_20240503_labels_15min.nc",
+   "MB": 0.14
+  },
+  {
+   "file": "KKN_20240503_polar_15min.nc",
+   "MB": 9.91
+  },
+  {
+   "file": "KKN_20240503_terrain_1km.nc",
+   "MB": 4.31
+  },
+  {
+   "file": "KKN_20240503_tracking_summary.csv",
+   "MB": 0.0
+  }
+ ]
+}

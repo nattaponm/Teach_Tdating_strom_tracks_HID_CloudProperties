@@ -1,0 +1,6 @@
+tag,frames,tracks,life>=30min,life>=60min,max_life_min,time_s
+15min,49,114,59,12,120.0,41
+10min_linZ,73,160,62,18,140.0,60
+05min_linZ,145,208,68,24,135.0,124
+10min_nearest,73,184,48,11,120.0,59
+05min_nearest,145,304,46,8,130.0,129
